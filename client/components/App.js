@@ -22,7 +22,7 @@ class App extends React.Component {
     return (
       <div className="App">
       <h1>Sydney Temperatures</h1>
-      <table>
+      <table class="weather-table">
           <thead>
             <tr className="table-header">
               <th>Date</th>
@@ -34,7 +34,7 @@ class App extends React.Component {
             {this.state.weatherSydney.map((date, idx) =>{
               return(
                 <tr key={date.idx}>
-                  <td>{date.Date}</td>
+                  <td class = "date-cell">{date.Date}</td>
                   <td>{date.Max}</td>
                   <td>{date.Min}</td>
                 </tr>
