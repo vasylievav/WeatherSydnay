@@ -24,6 +24,7 @@ table {
 
 td:hover {
     background: #7FFFD4;
+    transform: scale(1.25);
 }
 
 tr {
@@ -31,7 +32,9 @@ tr {
 }
 
 .table-header {
-  background-color: #00BFFF
+  background-color: #00BFFF;
+  height:58px
+
 }
 
 .weather-table {
