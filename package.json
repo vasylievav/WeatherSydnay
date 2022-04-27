@@ -1,0 +1,33 @@
+{
+  "name": "weather_for_coates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "webpack": "./node_modules/.bin/webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-react": "^7.16.7",
+    "axios": "^0.27.1",
+    "babel-loader": "^8.2.5",
+    "buffer": "^6.0.3",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.3",
+    "fast-csv": "^4.3.6",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "process": "^0.11.10",
+    "react": "^18.0.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^18.0.0",
+    "stream": "^0.0.2",
+    "stream-browserify": "^3.0.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
