@@ -4,10 +4,45 @@
   width: 100%;
 }
 
+body {
+  background-image:url(./background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+} 
+
 table, th, td {
   border: 1px solid black;
 }
 
+table {
+  width:90%;
+  height:80%;
+  margin:auto;
+  text-align: center;
+  table-layout: fixed;
+}
+
+td:hover {
+    background: #7FFFD4;
+}
+
+tr {
+  background-color: white;
+}
+
 .table-header {
-  background-color: rgb(224, 219, 219);
+  background-color: #00BFFF
+}
+
+.weather-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.date-cell{
+  text-align:start;
+}
+
+tr:nth-child(even) {
+  background-color: #E0FFFF
 }
